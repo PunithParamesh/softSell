@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Winky Sans", sans-serif;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}

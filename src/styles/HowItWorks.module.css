@@ -1,0 +1,53 @@
+.howItWorks {
+  padding: 60px 20px;
+  background-color: #f8f9ff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.step {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #4e54c8;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+p {
+  color: #666;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .step {
+    width: 30%;
+  }
+}

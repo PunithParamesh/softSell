@@ -1,0 +1,54 @@
+.whyChoose {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tile {
+  background-color: #f4f6ff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #4e54c8;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #555;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .tiles {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
